@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "types": ["reflect-metadata"],
+        "module": "commonjs",
+        "target": "es2017",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "build"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

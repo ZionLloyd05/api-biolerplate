@@ -1,0 +1,31 @@
+{
+  "name": "customermgtapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "^3.1.26",
+    "@types/mongoose": "^5.3.27",
+    "@types/node": "^11.13.8",
+    "@types/restify": "^7.2.9",
+    "bcrypt": "^3.0.6",
+    "inversify": "^5.0.1",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0",
+    "reflect-metadata": "^0.1.13",
+    "restify": "^8.3.1",
+    "restify-errors": "^7.0.0",
+    "ts-node": "^8.1.0",
+    "typegoose": "^5.6.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
